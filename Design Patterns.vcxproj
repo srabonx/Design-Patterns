@@ -129,10 +129,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Observer Pattern\CurrentConditionsDisplay.h" />
+    <ClInclude Include="Observer Pattern\DisplayElement.h" />
+    <ClInclude Include="Observer Pattern\Observer.h" />
+    <ClInclude Include="Observer Pattern\Subject.h" />
+    <ClInclude Include="Observer Pattern\WeatherData.h" />
+    <ClInclude Include="Observer Pattern\WeatherStatsDisplay.h" />
     <ClInclude Include="Stratedy Design Pattern\Bird.h" />
     <ClInclude Include="Stratedy Design Pattern\BirdBehaviour.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Observer Pattern\CurrentConditionsDisplay.cpp" />
+    <ClCompile Include="Observer Pattern\Main.cpp" />
+    <ClCompile Include="Observer Pattern\WeatherData.cpp" />
+    <ClCompile Include="Observer Pattern\WeatherStatsDisplay.cpp" />
     <ClCompile Include="Stratedy Design Pattern\Bird.cpp" />
     <ClCompile Include="Stratedy Design Pattern\Main.cpp" />
   </ItemGroup>
