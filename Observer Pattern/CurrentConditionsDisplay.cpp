@@ -3,7 +3,7 @@
 #include <iostream>
 #include <string>
 
-CurrentConditionsDisplay::CurrentConditionsDisplay(Subject* subject)
+CurrentConditionsDisplay::CurrentConditionsDisplay(WeatherData* subject)
 {
 	m_subject = subject;
 	m_subject->RegisterObserver(this);
@@ -13,11 +13,10 @@ CurrentConditionsDisplay::~CurrentConditionsDisplay()
 {
 }
 
-void CurrentConditionsDisplay::Update(float temp, float humidity, float pressure)
+void CurrentConditionsDisplay::Update()
 {
-	this->m_temperature = temp;
-	this->m_humidity = humidity;
-	this->m_pressure = pressure;
+	this->m_temperature = m_subject->GetTemperature();
+	this->m_humidity = m_subject->GetHumidity();
 	Display();
 }
 

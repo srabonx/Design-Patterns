@@ -37,5 +37,5 @@ void WeatherData::RemoveObserver(Observer* o)
 void WeatherData::NotifyObserver()
 {
 	for (const auto& observer : m_observers)
-		observer->Update(m_temperature, m_humidity, m_pressure);
+		observer->Update();
 }

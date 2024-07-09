@@ -4,7 +4,7 @@
 #include <ostream>
 #include <string>
 
-WeatherStatsDisplay::WeatherStatsDisplay(Subject* subject)
+WeatherStatsDisplay::WeatherStatsDisplay(WeatherData* subject)
 {
 	m_subject = subject;
 	m_subject->RegisterObserver(this);
@@ -21,9 +21,9 @@ void WeatherStatsDisplay::Display()
 		"/ " + std::to_string(m_minTemp) << std::endl;
 }
 
-void WeatherStatsDisplay::Update(float temp, float humidity, float pressure)
+void WeatherStatsDisplay::Update()
 {
-	this->m_temperature = temp;
+	this->m_temperature = m_subject->GetTemperature();
 	this->m_totalTemp += m_temperature;
 	this->m_sampleTaken++;
 

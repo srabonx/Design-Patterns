@@ -2,14 +2,15 @@
 #include "DisplayElement.h"
 #include "Observer.h"
 #include "Subject.h"
+#include "WeatherData.h"
 
 class WeatherStatsDisplay : public Observer, public DisplayElement
 {
 public:
-	WeatherStatsDisplay(Subject* subject);
+	WeatherStatsDisplay(WeatherData* subject);
 	~WeatherStatsDisplay();
 	void Display() override;
-	void Update(float temp, float humidity, float pressure) override;
+	void Update() override;
 
 private:
 	float m_temperature{ 0.f };
@@ -21,5 +22,5 @@ private:
 	int m_sampleTaken{ 0 };
 
 
-	Subject* m_subject;
+	WeatherData* m_subject{ nullptr };
 };

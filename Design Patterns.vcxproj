@@ -131,6 +131,7 @@
   <ItemGroup>
     <ClInclude Include="Observer Pattern\CurrentConditionsDisplay.h" />
     <ClInclude Include="Observer Pattern\DisplayElement.h" />
+    <ClInclude Include="Observer Pattern\ForecastDisplay.h" />
     <ClInclude Include="Observer Pattern\Observer.h" />
     <ClInclude Include="Observer Pattern\Subject.h" />
     <ClInclude Include="Observer Pattern\WeatherData.h" />
@@ -140,6 +141,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Observer Pattern\CurrentConditionsDisplay.cpp" />
+    <ClCompile Include="Observer Pattern\ForecastDisplay.cpp" />
     <ClCompile Include="Observer Pattern\Main.cpp" />
     <ClCompile Include="Observer Pattern\WeatherData.cpp" />
     <ClCompile Include="Observer Pattern\WeatherStatsDisplay.cpp" />

@@ -9,7 +9,7 @@ class WeatherData : public Subject
 {
 public:
 	WeatherData();
-	~WeatherData();
+	virtual ~WeatherData();
 	void MeasurementChanged();
 	void SetMeasurement(float temp, float humidity, float pressure);
 
@@ -17,10 +17,15 @@ public:
 	void RemoveObserver(Observer* o) override;
 	void NotifyObserver() override;
 
+	[[nodiscard]] float GetTemperature() const { return m_temperature; }
+	[[nodiscard]] float GetHumidity() const { return m_humidity; }
+	[[nodiscard]] float GetPressure() const { return m_pressure; }
+
 private:
-	std::list<Observer*> m_observers;
 
 	float m_temperature { 0.f };
 	float m_humidity { 0.f };
 	float m_pressure{ 0.f };
+
+	std::list<Observer*> m_observers;
 };
