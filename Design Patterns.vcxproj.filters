@@ -42,6 +42,18 @@
     <ClInclude Include="Observer Pattern\ForecastDisplay.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Decorator Pattern\Beverage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Decorator Pattern\CondimentDecorator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Decorator Pattern\Coffees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Decorator Pattern\Condiments.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Stratedy Design Pattern\Bird.cpp">
@@ -63,6 +75,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Observer Pattern\ForecastDisplay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Decorator Pattern\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
