@@ -54,12 +54,42 @@
     <ClInclude Include="Decorator Pattern\Condiments.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Factory Pattern\PizzaStore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory Pattern\Pizza.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory Pattern\NYPizzaStore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory Pattern\ChicagoPizzaStore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory Pattern\PizzaIngredientFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory Pattern\NYPizzaIngredientFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory Pattern\Ingredients.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory Pattern\NYIngredients.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory Pattern\PizzaTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory Pattern\ChicagoPizzaIngredientFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory Pattern\ChicagoIngredient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Stratedy Design Pattern\Bird.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Stratedy Design Pattern\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Observer Pattern\WeatherData.cpp">
@@ -71,13 +101,10 @@
     <ClCompile Include="Observer Pattern\WeatherStatsDisplay.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Observer Pattern\Main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Observer Pattern\ForecastDisplay.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Decorator Pattern\Main.cpp">
+    <ClCompile Include="Factory Pattern\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
