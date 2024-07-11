@@ -87,6 +87,18 @@
     <ClInclude Include="Factory Pattern\ChicagoIngredient.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Encapsulating Invocation\Device.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Encapsulating Invocation\Slot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Encapsulating Invocation\Remote.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Encapsulating Invocation\VendorDevices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Stratedy Design Pattern\Bird.cpp">
@@ -104,8 +116,11 @@
     <ClCompile Include="Observer Pattern\ForecastDisplay.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Factory Pattern\Main.cpp">
+    <ClCompile Include="Encapsulating Invocation\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>

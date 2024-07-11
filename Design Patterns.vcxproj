@@ -133,6 +133,10 @@
     <ClInclude Include="Decorator Pattern\Coffees.h" />
     <ClInclude Include="Decorator Pattern\CondimentDecorator.h" />
     <ClInclude Include="Decorator Pattern\Condiments.h" />
+    <ClInclude Include="Encapsulating Invocation\Device.h" />
+    <ClInclude Include="Encapsulating Invocation\Remote.h" />
+    <ClInclude Include="Encapsulating Invocation\Slot.h" />
+    <ClInclude Include="Encapsulating Invocation\VendorDevices.h" />
     <ClInclude Include="Factory Pattern\ChicagoIngredient.h" />
     <ClInclude Include="Factory Pattern\ChicagoPizzaIngredientFactory.h" />
     <ClInclude Include="Factory Pattern\ChicagoPizzaStore.h" />
@@ -155,12 +159,15 @@
     <ClInclude Include="Stratedy Design Pattern\BirdBehaviour.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Factory Pattern\Main.cpp" />
+    <ClCompile Include="Encapsulating Invocation\Main.cpp" />
     <ClCompile Include="Observer Pattern\CurrentConditionsDisplay.cpp" />
     <ClCompile Include="Observer Pattern\ForecastDisplay.cpp" />
     <ClCompile Include="Observer Pattern\WeatherData.cpp" />
     <ClCompile Include="Observer Pattern\WeatherStatsDisplay.cpp" />
     <ClCompile Include="Stratedy Design Pattern\Bird.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
