@@ -15,6 +15,7 @@ int main()
 	Device* ceilingLight = new CeilingLight();
 	Device* tv = new TV();
 
+
 	std::vector<Device*> devices;
 
 	for(int i = 0;i <5;i++)
@@ -29,6 +30,7 @@ int main()
 	remote->AssignDevice(1, tv);
 	remote->AssignDevice(2, devices);
 
+	remote->PressOn(3);
 	remote->PressOn(0);
 	remote->PressOn(1);
 	remote->RemoveDevice(1);

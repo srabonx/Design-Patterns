@@ -99,6 +99,18 @@
     <ClInclude Include="Encapsulating Invocation\VendorDevices.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Encapsulating Invocation\Command Pattern\Command.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Encapsulating Invocation\Command Pattern\Remote.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Encapsulating Invocation\Command Pattern\Commands.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Encapsulating Invocation\Command Pattern\Devices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Stratedy Design Pattern\Bird.cpp">
@@ -116,7 +128,7 @@
     <ClCompile Include="Observer Pattern\ForecastDisplay.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Encapsulating Invocation\Main.cpp">
+    <ClCompile Include="Encapsulating Invocation\Command Pattern\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
