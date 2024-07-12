@@ -129,6 +129,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Adapter Pattern\Duck.h" />
+    <ClInclude Include="Adapter Pattern\MallardDuck.h" />
+    <ClInclude Include="Adapter Pattern\Turkey.h" />
+    <ClInclude Include="Adapter Pattern\TurkeyAdapter.h" />
+    <ClInclude Include="Adapter Pattern\WildTurkey.h" />
     <ClInclude Include="Decorator Pattern\Beverage.h" />
     <ClInclude Include="Decorator Pattern\Coffees.h" />
     <ClInclude Include="Decorator Pattern\CondimentDecorator.h" />
@@ -163,7 +168,7 @@
     <ClInclude Include="Stratedy Design Pattern\BirdBehaviour.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Encapsulating Invocation\Command Pattern\Main.cpp" />
+    <ClCompile Include="Adapter Pattern\Main.cpp" />
     <ClCompile Include="Observer Pattern\CurrentConditionsDisplay.cpp" />
     <ClCompile Include="Observer Pattern\ForecastDisplay.cpp" />
     <ClCompile Include="Observer Pattern\WeatherData.cpp" />
