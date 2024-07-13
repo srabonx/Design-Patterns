@@ -166,17 +166,17 @@
     <ClInclude Include="Observer Pattern\WeatherStatsDisplay.h" />
     <ClInclude Include="Stratedy Design Pattern\Bird.h" />
     <ClInclude Include="Stratedy Design Pattern\BirdBehaviour.h" />
+    <ClInclude Include="Template Method Pattern\CaffeineBeverage.h" />
+    <ClInclude Include="Template Method Pattern\Coffee.h" />
+    <ClInclude Include="Template Method Pattern\Tea.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Adapter Pattern\Main.cpp" />
     <ClCompile Include="Observer Pattern\CurrentConditionsDisplay.cpp" />
     <ClCompile Include="Observer Pattern\ForecastDisplay.cpp" />
     <ClCompile Include="Observer Pattern\WeatherData.cpp" />
     <ClCompile Include="Observer Pattern\WeatherStatsDisplay.cpp" />
     <ClCompile Include="Stratedy Design Pattern\Bird.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram.cd" />
+    <ClCompile Include="Template Method Pattern\Main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
