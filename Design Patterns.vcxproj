@@ -157,6 +157,13 @@
     <ClInclude Include="Factory Pattern\PizzaIngredientFactory.h" />
     <ClInclude Include="Factory Pattern\PizzaStore.h" />
     <ClInclude Include="Factory Pattern\PizzaTypes.h" />
+    <ClInclude Include="Iterator Pattern\DinerMenu.h" />
+    <ClInclude Include="Iterator Pattern\DinerMenuIterator.h" />
+    <ClInclude Include="Iterator Pattern\Iterator.h" />
+    <ClInclude Include="Iterator Pattern\MenuItem.h" />
+    <ClInclude Include="Iterator Pattern\PancakeHouseMenu.h" />
+    <ClInclude Include="Iterator Pattern\PancakeHouseMenuIterator.h" />
+    <ClInclude Include="Iterator Pattern\Waitress.h" />
     <ClInclude Include="Observer Pattern\CurrentConditionsDisplay.h" />
     <ClInclude Include="Observer Pattern\DisplayElement.h" />
     <ClInclude Include="Observer Pattern\ForecastDisplay.h" />
@@ -171,12 +178,12 @@
     <ClInclude Include="Template Method Pattern\Tea.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Iterator Pattern\Main.cpp" />
     <ClCompile Include="Observer Pattern\CurrentConditionsDisplay.cpp" />
     <ClCompile Include="Observer Pattern\ForecastDisplay.cpp" />
     <ClCompile Include="Observer Pattern\WeatherData.cpp" />
     <ClCompile Include="Observer Pattern\WeatherStatsDisplay.cpp" />
     <ClCompile Include="Stratedy Design Pattern\Bird.cpp" />
-    <ClCompile Include="Template Method Pattern\Main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

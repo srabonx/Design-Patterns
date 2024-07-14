@@ -135,6 +135,27 @@
     <ClInclude Include="Template Method Pattern\Tea.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Iterator Pattern\MenuItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterator Pattern\PancakeHouseMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterator Pattern\DinerMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterator Pattern\Waitress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterator Pattern\Iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterator Pattern\DinerMenuIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterator Pattern\PancakeHouseMenuIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Stratedy Design Pattern\Bird.cpp">
@@ -152,7 +173,7 @@
     <ClCompile Include="Observer Pattern\ForecastDisplay.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Template Method Pattern\Main.cpp">
+    <ClCompile Include="Iterator Pattern\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
