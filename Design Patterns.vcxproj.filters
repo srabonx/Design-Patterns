@@ -156,6 +156,27 @@
     <ClInclude Include="Iterator Pattern\PancakeHouseMenuIterator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="State Pattern\State.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="State Pattern\InvalidActionException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="State Pattern\GumballMachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="State Pattern\NoQuarterState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="State Pattern\HasQuarterState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="State Pattern\GumballSoldState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="State Pattern\SoldOutState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Stratedy Design Pattern\Bird.cpp">
@@ -173,7 +194,19 @@
     <ClCompile Include="Observer Pattern\ForecastDisplay.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Iterator Pattern\Main.cpp">
+    <ClCompile Include="State Pattern\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="State Pattern\GumballSoldState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="State Pattern\HasQuarterState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="State Pattern\NoQuarterState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="State Pattern\SoldOutState.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -171,6 +171,13 @@
     <ClInclude Include="Observer Pattern\Subject.h" />
     <ClInclude Include="Observer Pattern\WeatherData.h" />
     <ClInclude Include="Observer Pattern\WeatherStatsDisplay.h" />
+    <ClInclude Include="State Pattern\GumballMachine.h" />
+    <ClInclude Include="State Pattern\GumballSoldState.h" />
+    <ClInclude Include="State Pattern\HasQuarterState.h" />
+    <ClInclude Include="State Pattern\InvalidActionException.h" />
+    <ClInclude Include="State Pattern\NoQuarterState.h" />
+    <ClInclude Include="State Pattern\SoldOutState.h" />
+    <ClInclude Include="State Pattern\State.h" />
     <ClInclude Include="Stratedy Design Pattern\Bird.h" />
     <ClInclude Include="Stratedy Design Pattern\BirdBehaviour.h" />
     <ClInclude Include="Template Method Pattern\CaffeineBeverage.h" />
@@ -178,11 +185,15 @@
     <ClInclude Include="Template Method Pattern\Tea.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Iterator Pattern\Main.cpp" />
     <ClCompile Include="Observer Pattern\CurrentConditionsDisplay.cpp" />
     <ClCompile Include="Observer Pattern\ForecastDisplay.cpp" />
     <ClCompile Include="Observer Pattern\WeatherData.cpp" />
     <ClCompile Include="Observer Pattern\WeatherStatsDisplay.cpp" />
+    <ClCompile Include="State Pattern\GumballSoldState.cpp" />
+    <ClCompile Include="State Pattern\HasQuarterState.cpp" />
+    <ClCompile Include="State Pattern\Main.cpp" />
+    <ClCompile Include="State Pattern\NoQuarterState.cpp" />
+    <ClCompile Include="State Pattern\SoldOutState.cpp" />
     <ClCompile Include="Stratedy Design Pattern\Bird.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
